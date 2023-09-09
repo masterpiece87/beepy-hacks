@@ -3,8 +3,8 @@
 
 
 # Default values
-DEFAULT_LOCATION=Palo+Alto
-DEFAULT_UNITS=imperial
+DEFAULT_LOCATION=Baronissi
+DEFAULT_UNITS=metric
 CONFIG_FILE="$HOME/.config/weather.cfg"
 PAGE=0
 
