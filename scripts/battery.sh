@@ -1,11 +1,11 @@
 #!/bin/bash
 # CACHEFILE is the place where the script keeps old readings. It is used as a logfile, too.
 # you can move CACHEFILE to /tmp if you don't want to keep a log of your battery
-CACHEFILE=/tmp/battery.log
+CACHEFILE=/home/scheduled/battery.log
 # CACHEAGE is the maximum age a battery reading can have, before it is updated.
 CACHEAGE=1000
 # RAWMAX the maximum expected value for the raw battery value, this will be considered 100%
-RAWMAX=2000
+RAWMAX=2150
 # RAWMIN the minimum expected value for the raw battery value, this will be considered 0%
 RAWMIN=1930
 
